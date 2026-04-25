@@ -64,6 +64,19 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color:white;
 }
+.social-icon{
+    color:red;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+}
+.social-icon:hover{
+    color:grey;
+}
 /*---------------------------------------About---------------------------*/
 
 /*---------------------------------------Gallery-------------------------*/
@@ -84,4 +97,39 @@ nav ul li a:hover::after{
 #gallery h2{
     text-align: center;
     font-size: 60px;
+}
+/*-------------------------------Contact---------------------------------*/
+form input, form textarea{
+    width: 40%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form label{
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: red;
+}
+form .btn{
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn{
+    display:inline-block;
+    background-color:#262626;
+    color:#fff;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.contact img{
+    float:inline-end;
+    width: 600px;
 }
